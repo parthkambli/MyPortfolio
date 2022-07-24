@@ -1,0 +1,27 @@
+.Intro {
+  background-color: #eaf6f6;
+  padding: 50px;
+  border-bottom: solid gray 1px;
+}
+
+.IntorIMG img {
+  height: 90%;
+  width: 90%;
+  border-radius: 50%;
+}
+
+.IntroContent {
+  text-align: left;
+}
+
+h1 {
+  color: #66bfbf;
+  font-size: 5.625rem;
+  font-family: "Sacramento", cursive;
+  margin: 30px auto 0 auto;
+}
+
+span {
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+}
