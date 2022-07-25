@@ -1,13 +1,14 @@
 .Intro {
   background-color: #eaf6f6;
   padding: 50px;
-  border-bottom: solid gray 1px;
+  /* border-bottom: solid gray 1px; */
 }
 
 .IntorIMG img {
   height: 90%;
   width: 90%;
   border-radius: 50%;
+  margin: 30px auto 0 auto;
 }
 
 .IntroContent {
