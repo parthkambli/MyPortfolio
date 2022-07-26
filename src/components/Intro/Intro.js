@@ -1,7 +1,7 @@
-import "./intro.css"
+import Social from "./Social";
+import "./intro.css";
 
 function Intro() {
-
   return (
     <div className="Intro text-center">
       <div className="container">
@@ -16,6 +16,35 @@ function Intro() {
               about creating interactive applications and experiences on the
               web.
             </p>
+            <div className="row">
+              <Social
+                icon="fa-brands fa-linkedin-in fa-2xl"
+                link="https://www.linkedin.com/in/parth-kambli-24880613a/"
+              />
+              <Social
+                icon="fa-brands fa-facebook-f fa-2xl"
+                link="https://www.facebook.com/parth.kambli.7"
+              />
+              <Social
+                icon="fa-brands fa-github fa-2xl"
+                link="https://github.com/parthkambli"
+              />
+              <Social
+                icon="fa-brands fa-instagram fa-2xl"
+                link="https://www.instagram.com/parth.kambli.7/"
+              />
+              {/* 
+              
+              
+              <div className="col-1">
+                <a
+                  href="https://www.instagram.com/parth.kambli.7/"
+                  target="blank"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div> */}
+            </div>
           </div>
         </div>
       </div>
